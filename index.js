@@ -13,3 +13,26 @@ var sent = a('hi');
 console.log(sent);
 
 //this keyword?
+
+if (true) {
+  var x = 5;
+}
+if (true) {
+  let b = 5;
+}
+
+//console.log(x, b);
+console.log(x(5));
+var x = (a) => {
+  return;
+  a;
+};
+
+var a = [1, 'hello', 'Test'];
+
+console.log(x(5), a);
+x(5);
+var x = function (a) {
+  return;
+  a;
+};
